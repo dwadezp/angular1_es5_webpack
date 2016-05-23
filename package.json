@@ -1,0 +1,31 @@
+{
+  "name": "angular_es5_webpack",
+  "version": "1.0.0",
+  "description": "Start seed for building component base application based on angular 1.5 and webpack",
+  "main": "entry.js",
+  "scripts": {
+    "server": "webpack-dev-server --history-api-fallback --inline --progress",
+    "start": "npm run server",
+    "test": "karma start ./karma.conf.js --single-run"
+  },
+  "author": "Vladyslav Bezruchko",
+  "license": "ISC",
+  "devDependencies": {
+    "angular-mocks": "^1.5.5",
+    "css-loader": "^0.23.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-angular": "0.0.6",
+    "karma-coverage": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-webpack": "^1.7.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.5",
+    "lodash": "^4.12.0",
+    "@angular/router": "*"
+  }
+}
