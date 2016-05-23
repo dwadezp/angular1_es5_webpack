@@ -19,11 +19,14 @@ In next commits i'm going to add some kind of framework for organisation e2e tes
 <p>cd angular1_es5_webpack</p>
 <p>npm install</p>
 <p>npm start</p>
+<a href="http://localhost:1111">http://localhost:1111/</a>
 <b>In order to run unit tests and see code coverage please run:</b>
 <p>npm test</p>
-<a href="http://localhost:1111">http://localhost:1111/</a>
+<a href="http://localhost:9876/">http://localhost:9876/</a>
+So on this link you will be able to debug your unit tests and then in console you will
+see test results and code coverage.
 
 <h2>WARNING! Make sure that you are using latest version of npm (>3)</h2>
 
-<p>Once you run this command you will be able to see coverage folder in your project
+<p>Also Once you run this command you will be able to see coverage folder in your project
 Istanbul generates nice coverage/index.html where you can see coverage file by file</p>
