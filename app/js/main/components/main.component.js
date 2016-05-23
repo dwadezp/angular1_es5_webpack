@@ -1,5 +1,5 @@
+'use strict';
 var angular = require('angular');
-debugger;
 module.exports = angular
   .module('app.main.component', [])
   .component('appMain', {

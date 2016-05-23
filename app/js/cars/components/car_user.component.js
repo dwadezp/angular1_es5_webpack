@@ -1,5 +1,3 @@
-(function() {
-
   'use strict';
   module.exports = angular
     .module('app.cars.component.car_user', [])
@@ -14,8 +12,9 @@
     });
 
   function CarUserController(CarInfoService){
+
     var ctrl = this;
     ctrl.functionToPass();
   }
 
-})();
+

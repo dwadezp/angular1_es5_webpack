@@ -1,10 +1,9 @@
-debugger;
+'use strict';
 module.exports = angular
   .module('app.cars.services.car_info', [])
   .factory('CarInfoService', CarInfoService);
 
 function CarInfoService(){
-  'use strict';
   var service = {
     getCarInfoByEngine: getCarInfoByEngine
   };
