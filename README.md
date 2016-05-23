@@ -16,7 +16,7 @@ In next commits i'm going to add some kind of framework for organisation e2e tes
 
 <b>In order to run application please do following things:</b>
 <p>git clone https://github.com/dwadezp/angular1_es5_webpack.git</p>
-<p>cd angular angular1_es5_webpack</p>
+<p>cd angular1_es5_webpack</p>
 <p>npm install</p>
 <p>npm start</p>
 <b>In order to run unit tests and see code coverage please run:</b>
