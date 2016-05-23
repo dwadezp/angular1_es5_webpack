@@ -23,5 +23,7 @@ In next commits i'm going to add some kind of framework for organisation e2e tes
 <p>npm test</p>
 <a href="http://localhost:1111">http://localhost:1111/</a>
 
+<h2>WARNING! Make sure that you are using latest version of npm (>3)</h2>
+
 <p>Once you run this command you will be able to see coverage folder in your project
 Istanbul generates nice coverage/index.html where you can see coverage file by file</p>
