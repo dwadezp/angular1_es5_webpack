@@ -21,5 +21,7 @@ In next commits i'm going to add some kind of framework for organisation e2e tes
 <p>npm start</p>
 <b>In order to run unit tests and see code coverage please run:</b>
 <p>npm test</p>
+<a href="http://localhost:1111">http://localhost:1111/</a>
+
 <p>Once you run this command you will be able to see coverage folder in your project
 Istanbul generates nice coverage/index.html where you can see coverage file by file</p>
