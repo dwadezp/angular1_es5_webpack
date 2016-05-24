@@ -19,7 +19,9 @@
     "karma-angular": "0.0.6",
     "karma-coverage": "^1.0.0",
     "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
     "karma-webpack": "^1.7.0",
+    "phantomjs-prebuilt": "^2.1.7",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"

@@ -7,6 +7,7 @@ module.exports = function(config) {
     files: [
       './specs.webpack.js'
     ],
+    browsers: ['PhantomJS'],
     reporters: ['progress', 'coverage'],
     preprocessors: {
       './specs.webpack.js': ['webpack']
