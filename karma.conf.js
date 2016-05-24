@@ -18,6 +18,7 @@ module.exports = function(config) {
                 {
                     test: /\.js$/,
                     include: path.resolve('app/js/'),
+                    exclude: /(spec)/,
                     loader: 'istanbul-instrumenter'
                 }
             ]
