@@ -12,6 +12,7 @@ function CarInfoController(CarInfoService){
       variableToPass = "This is some stuff from car info";
   ctrl.variableToPass = variableToPass;
   ctrl.carInfo = CarInfoService.getCarInfoByEngine('petrol');
+  ctrl.carText = "So the car has";
   ctrl.functionToBePassed = functionToBePassed;
 
   function functionToBePassed() {
