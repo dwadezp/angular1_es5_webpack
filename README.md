@@ -29,4 +29,13 @@ In next commits i'm going to add some kind of framework for organisation e2e tes
 <p>Also Once you run this command you will be able to see coverage folder in your project
 Istanbul generates nice coverage/index.html where you can see coverage file by file</p>
 
+<br>
+<b>e2e tests</b>
+<br>
+webdriver-manager update<br>
+webdriver-manager start<br>
+In other console run your app<br>
+And in other console run protractor protractor.config.js
+
+
 
